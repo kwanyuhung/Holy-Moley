@@ -8,13 +8,19 @@ public class Player : MonoBehaviour
     public Rigidbody2D rb;
     //public Camera cam;
     //private Animator ani;
-    //public SoundSFX soundEffect;
+    public SoundFX soundEffect;
     //bool isWalking = false;
     Vector2 movement;
     //Vector2 mousePositionVector;
 
     //public GameObject seeds;
-    public GameObject seedsUI;
+    public GameObject seed1UI;
+    public GameObject seed2UI;
+    public GameObject seed3UI;
+
+    public GameObject totalSeedUI1;
+    public GameObject totalSeedUI2;
+    public GameObject totalSeedUI3;
     void Start()
     {
         //ani = GetComponent<Animator>();
@@ -31,7 +37,7 @@ public class Player : MonoBehaviour
         if (movement.x > 0 || movement.y > 0 || movement.x < 0 || movement.y < 0)
         {
             //ani.SetBool("isWalk", true);
-           // soundEffect.footstep.Play();
+           soundEffect.footstep.Play();
 
 
 
@@ -76,10 +82,23 @@ public class Player : MonoBehaviour
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        if(collision.gameObject.tag == "Seeds")
+        if(collision.gameObject.tag == "Seed1")
         {
             collision.gameObject.SetActive(false);
-            seedsUI.gameObject.SetActive(true);
+            seed1UI.gameObject.SetActive(true);
+            totalSeedUI1.gameObject.SetActive(false);
+        }
+        if (collision.gameObject.tag == "Seed2")
+        {
+            collision.gameObject.SetActive(false);
+            seed2UI.gameObject.SetActive(true);
+            totalSeedUI2.gameObject.SetActive(false);
+        }
+        if (collision.gameObject.tag == "Seed3")
+        {
+            collision.gameObject.SetActive(false);
+            seed3UI.gameObject.SetActive(true);
+            totalSeedUI3.gameObject.SetActive(false);
         }
     }
 }

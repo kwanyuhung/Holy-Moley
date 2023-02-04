@@ -14,7 +14,15 @@ public class BossController : MonoBehaviour
     //Vector2 mousePositionVector;
 
     //public GameObject seeds;
-    public GameObject seedsUI;
+    public GameObject seed1UI;
+    public GameObject seed2UI;
+    public GameObject seed3UI;
+
+    public GameObject totalSeedUI1;
+    public GameObject totalSeedUI2;
+    public GameObject totalSeedUI3;
+
+    public Transform seed1Position;
     void Start()
     {
         //ani = GetComponent<Animator>();
@@ -79,10 +87,23 @@ public class BossController : MonoBehaviour
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        if (collision.gameObject.tag == "Seeds")
+        if (collision.gameObject.tag == "Seed1")
+        {
+            collision.gameObject.transform.position = seed1Position.position;
+            seed1UI.gameObject.SetActive(true);
+            totalSeedUI1.gameObject.SetActive(false);
+        }
+        if (collision.gameObject.tag == "Seed2")
         {
             collision.gameObject.SetActive(false);
-            seedsUI.gameObject.SetActive(true);
+            seed2UI.gameObject.SetActive(true);
+            totalSeedUI2.gameObject.SetActive(false);
+        }
+        if (collision.gameObject.tag == "Seed3")
+        {
+            collision.gameObject.SetActive(false);
+            seed3UI.gameObject.SetActive(true);
+            totalSeedUI3.gameObject.SetActive(false);
         }
     }
 }

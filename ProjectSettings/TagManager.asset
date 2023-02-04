@@ -6,6 +6,9 @@ TagManager:
   tags:
   - P1
   - Seeds
+  - Seed1
+  - Seed2
+  - Seed3
   layers:
   - Default
   - TransparentFX
@@ -15,7 +18,7 @@ TagManager:
   - UI
   - PostProcessing
   - P1
-  - 
+  - Minimap
   - 
   - 
   - 
