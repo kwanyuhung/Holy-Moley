@@ -72,9 +72,6 @@ public class Player : MonoBehaviour
             transform.localScale = new Vector3(-0.05f, 0.05f, 0.05f);
 
         }
-
-
-
     }
 
     private void OnCollisionEnter2D(Collision2D collision)
