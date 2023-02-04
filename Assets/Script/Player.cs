@@ -59,14 +59,14 @@ public class Player : MonoBehaviour
         //flip the character
         if (movement.x >= 0.01f)
         {
-            transform.localScale = new Vector3(1f, 1f, 1);
+            transform.localScale = new Vector3(0.05f, 0.05f, 0.05f);
 
         }
 
 
         else if (movement.x < -0.01f)
         {
-            transform.localScale = new Vector3(-1f, 1f, 1);
+            transform.localScale = new Vector3(-0.05f, 0.05f, 0.05f);
 
         }
 
