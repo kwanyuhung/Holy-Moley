@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Player : MonoBehaviour
+public class BossController : MonoBehaviour
 {
     public float moveSpeed;
     public Rigidbody2D rb;
@@ -31,7 +31,7 @@ public class Player : MonoBehaviour
         if (movement.x > 0 || movement.y > 0 || movement.x < 0 || movement.y < 0)
         {
             //ani.SetBool("isWalk", true);
-           // soundEffect.footstep.Play();
+            // soundEffect.footstep.Play();
 
 
 
@@ -54,8 +54,8 @@ public class Player : MonoBehaviour
 
     void Move()
     {
-        movement.x = Input.GetAxisRaw("Horizontal");
-        movement.y = Input.GetAxisRaw("Vertical");
+        movement.x = Input.GetAxisRaw("BossHorizontal");
+        movement.y = Input.GetAxisRaw("BossVertical");
         //Debug.Log(movement.x);
         //mousePositionVector = cam.ScreenToWorldPoint(Input.mousePosition); //transfer the vector into wherever mousepoint to
 
@@ -79,7 +79,7 @@ public class Player : MonoBehaviour
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        if(collision.gameObject.tag == "Seeds")
+        if (collision.gameObject.tag == "Seeds")
         {
             collision.gameObject.SetActive(false);
             seedsUI.gameObject.SetActive(true);
