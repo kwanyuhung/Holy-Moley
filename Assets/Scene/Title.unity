@@ -214,9 +214,9 @@ MonoBehaviour:
 
     writer: jacob
 
-    artist: lem
+    artist: lam
 
-    Programmers: ozu
+    programmers: ozu
     & henry'
 --- !u!222 &66507836
 CanvasRenderer:
