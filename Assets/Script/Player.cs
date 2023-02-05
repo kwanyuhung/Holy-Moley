@@ -82,7 +82,7 @@ public class Player : MonoBehaviour
 
         }
 
-        if (movement.y > 0.01f)
+        else if (movement.y > 0.01f)
         {
             transform.rotation = Quaternion.Euler(new Vector3(0, 0, 90));
         }
@@ -93,6 +93,7 @@ public class Player : MonoBehaviour
         else
         {
             transform.rotation = Quaternion.Euler(new Vector3(0, 0, 0));
+            transform.localScale = new Vector3(0.05f, 0.05f, 0.05f);
         }
     }
 
