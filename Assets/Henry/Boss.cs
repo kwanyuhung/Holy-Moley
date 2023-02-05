@@ -9,6 +9,8 @@ public class Boss : MonoBehaviour
 
     public GameObject bullet;
 
+    public GameObject water;
+
     public void Fire()
     {
         if (!bullet) return;
@@ -29,5 +31,13 @@ public class Boss : MonoBehaviour
         yield return new WaitForSeconds(3f);
         b1.SetActive(false);
         b2.SetActive(false);
+    }
+
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.CompareTag("P1"))
+        {
+            water.SetActive(true);
+        }
     }
 }

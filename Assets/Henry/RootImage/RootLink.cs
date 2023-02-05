@@ -19,7 +19,7 @@ public class RootLink : MonoBehaviour
 
     public void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.CompareTag("P1"))
+        if (collision.CompareTag("P1") || collision.CompareTag("Water"))
         {
             if (isHead)
             {

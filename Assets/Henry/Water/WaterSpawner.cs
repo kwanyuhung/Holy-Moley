@@ -30,34 +30,35 @@ public class WaterSpawner : MonoBehaviour
         }
 
 
-        float distance = Vector2.Distance(waterEndPoint.localPosition, WaterStart.transform.localPosition);
+        //float distance = Vector2.Distance(waterEndPoint.localPosition, WaterStart.transform.localPosition);
 
-        float totalCount = distance;
+        //float totalCount = distance;
 
-        for (int i = 0; i < (int)totalCount; i++)
-        {
-            var water = Instantiate(WaterMid);
+        //for (int i = 0; i < (int)totalCount; i++)
+        //{
+        //    var water = Instantiate(WaterMid);
+        //    water.transform.parent = transform;
 
-            Vector3 pos = Vector3.right;
-            switch (direction)
-            {
-                case Direction.UP:
-                    pos = Vector3.up;
-                    break;
-                case Direction.Down:
-                    pos = Vector3.down;
-                    break;
-                case Direction.Left:
-                    pos = Vector3.left;
-                    break;
-                case Direction.Right:
-                    pos = Vector3.right;
-                    break;
-            }
-            pos *= 0.1f;
-            water.transform.localPosition = transform.localPosition+ pos * i;
-            water.transform.localRotation = transform.localRotation;
-        }
+        //    Vector3 pos = Vector3.right;
+        //    switch (direction)
+        //    {
+        //        case Direction.UP:
+        //            pos = Vector3.up;
+        //            break;
+        //        case Direction.Down:
+        //            pos = Vector3.down;
+        //            break;
+        //        case Direction.Left:
+        //            pos = Vector3.left;
+        //            break;
+        //        case Direction.Right:
+        //            pos = Vector3.right;
+        //            break;
+        //    }
+        //    //pos *= 0.1f;
+        //    water.transform.localPosition = transform.localPosition+ pos * i;
+        //    water.transform.localRotation = transform.localRotation;
+        //}
 
     }
 
