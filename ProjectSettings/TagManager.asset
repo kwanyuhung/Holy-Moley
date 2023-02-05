@@ -11,6 +11,8 @@ TagManager:
   - Seed3
   - Sand
   - Digging Spot
+  - Water
+  - Roots
   layers:
   - Default
   - TransparentFX
