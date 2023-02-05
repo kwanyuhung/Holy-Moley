@@ -8,6 +8,7 @@ public class Player : MonoBehaviour
     public Rigidbody2D rb;
     //public Camera cam;
     private Animator ani;
+    private int bossKeys;
     public SoundFX soundEffect;
     //bool isWalking = false;
     Vector2 movement;
@@ -24,6 +25,7 @@ public class Player : MonoBehaviour
 
     void Start()
     {
+        bossKeys = 0;
         ani = GetComponent<Animator>();
     }
 
@@ -121,6 +123,10 @@ public class Player : MonoBehaviour
         {
             collision.gameObject.SetActive(false);
         }
+        else if(collision.gameObject.tag == "Door" && bossKeys > 0)
+        {
+            Destroy(collision.gameObject);
+        }
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
@@ -128,6 +134,11 @@ public class Player : MonoBehaviour
         if(collision.gameObject.tag == "Digging Spot")
         {
             GetComponent<SwapBlock>().SwapBlocks();
+        }
+        else if (collision.gameObject.tag == "Key")
+        {
+            bossKeys++;
+            Destroy(collision.gameObject);
         }
     }
 
