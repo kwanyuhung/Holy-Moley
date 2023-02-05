@@ -2046,7 +2046,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 330512785}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -1.88, y: -3.569, z: 0}
+  m_LocalPosition: {x: -1.88, y: 1.3, z: 0}
   m_LocalScale: {x: 0.05, y: 0.05, z: 0.05}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -2068,6 +2068,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   moveSpeed: 2.5
   rb: {fileID: 330512789}
+  soundEffect: {fileID: 0}
+  seed1UI: {fileID: 0}
+  seed2UI: {fileID: 0}
+  seed3UI: {fileID: 0}
+  totalSeedUI1: {fileID: 0}
+  totalSeedUI2: {fileID: 0}
+  totalSeedUI3: {fileID: 0}
 --- !u!50 &330512789
 Rigidbody2D:
   serializedVersion: 4

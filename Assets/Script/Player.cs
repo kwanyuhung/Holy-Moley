@@ -7,7 +7,7 @@ public class Player : MonoBehaviour
     public float moveSpeed;
     public Rigidbody2D rb;
     //public Camera cam;
-    //private Animator ani;
+    private Animator ani;
     public SoundFX soundEffect;
     //bool isWalking = false;
     Vector2 movement;
@@ -23,7 +23,7 @@ public class Player : MonoBehaviour
     public GameObject totalSeedUI3;
     void Start()
     {
-        //ani = GetComponent<Animator>();
+        ani = GetComponent<Animator>();
     }
 
     // Update is called once per frame
@@ -36,7 +36,7 @@ public class Player : MonoBehaviour
 
         if (movement.x > 0 || movement.y > 0 || movement.x < 0 || movement.y < 0)
         {
-            //ani.SetBool("isWalk", true);
+            ani.SetBool("isWalk", true);
            soundEffect.footstep.Play();
 
 
@@ -44,7 +44,8 @@ public class Player : MonoBehaviour
         }
         else if (movement.x == 0 || movement.y == 0)
         {
-            //ani.SetBool("isWalk", false);
+            ani.SetBool("isWalk", false);
+            //soundEffect.footstep.Stop();
         }
 
     }
@@ -99,6 +100,10 @@ public class Player : MonoBehaviour
             collision.gameObject.SetActive(false);
             seed3UI.gameObject.SetActive(true);
             totalSeedUI3.gameObject.SetActive(false);
+        }
+        if(collision.gameObject.tag == "Sand")
+        {
+            collision.gameObject.SetActive(false);
         }
     }
 }

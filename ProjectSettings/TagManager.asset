@@ -9,6 +9,7 @@ TagManager:
   - Seed1
   - Seed2
   - Seed3
+  - Sand
   layers:
   - Default
   - TransparentFX
