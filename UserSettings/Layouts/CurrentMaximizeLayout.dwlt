@@ -25,7 +25,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 200}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
-  controlID: 2875
+  controlID: 11746
 --- !u!114 &2
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -47,9 +47,9 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
     x: 0
-    y: 314.4
+    y: 241.6
     width: 881.4
-    height: 469
+    height: 541.8
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
     m_LastAppliedPresetName: Default
@@ -97,22 +97,22 @@ MonoBehaviour:
       x: 0
       y: 21
       width: 881.4
-      height: 448
-    m_Scale: {x: 0.5185185, y: 0.5185185}
-    m_Translation: {x: 440.7, y: 224}
+      height: 520.8
+    m_Scale: {x: 0.57382816, y: 0.57382816}
+    m_Translation: {x: 440.7, y: 260.4}
     m_MarginLeft: 0
     m_MarginRight: 0
     m_MarginTop: 0
     m_MarginBottom: 0
     m_LastShownAreaInsideMargins:
       serializedVersion: 2
-      x: -849.92145
-      y: -432
-      width: 1699.8429
-      height: 864
+      x: -768
+      y: -453.79437
+      width: 1536
+      height: 907.58875
     m_MinimalGUI: 1
-  m_defaultScale: 0.5185185
-  m_LastWindowPixelSize: {x: 1101.75, y: 586.25}
+  m_defaultScale: 0.57382816
+  m_LastWindowPixelSize: {x: 1101.75, y: 677.25}
   m_ClearInEditMode: 1
   m_NoCameraWarning: 1
   m_LowResolutionForAspectRatios: 00000000000000000000
@@ -142,7 +142,7 @@ MonoBehaviour:
   m_MinSize: {x: 100, y: 200}
   m_MaxSize: {x: 8096, y: 16192}
   vertical: 1
-  controlID: 2876
+  controlID: 11747
 --- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -161,7 +161,7 @@ MonoBehaviour:
     x: 0
     y: 0
     width: 882.4
-    height: 240.8
+    height: 168
   m_MinSize: {x: 201, y: 221}
   m_MaxSize: {x: 4001, y: 4021}
   m_ActualView: {fileID: 5}
@@ -194,7 +194,7 @@ MonoBehaviour:
     x: 0
     y: 73.6
     width: 881.4
-    height: 219.8
+    height: 147
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
     m_LastAppliedPresetName: Default
@@ -205,7 +205,7 @@ MonoBehaviour:
       collapsed: 0
       displayed: 1
       snapOffset: {x: 0, y: 0}
-      snapOffsetDelta: {x: -100, y: -25.600006}
+      snapOffsetDelta: {x: -100, y: -25.599998}
       snapCorner: 3
       id: Tool Settings
       index: 0
@@ -216,7 +216,7 @@ MonoBehaviour:
       collapsed: 0
       displayed: 1
       snapOffset: {x: -141, y: 149}
-      snapOffsetDelta: {x: 0, y: 0}
+      snapOffsetDelta: {x: 0, y: -27.400002}
       snapCorner: 1
       id: unity-grid-and-snap-toolbar
       index: 1
@@ -451,9 +451,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: -0.7395692, y: -1.6695011, z: 0.026742294}
+    m_Target: {x: -2.4982498, y: -1.5777587, z: -10.033748}
     speed: 2
-    m_Value: {x: -0.7395692, y: -1.6695011, z: 0.026742294}
+    m_Value: {x: -2.4982498, y: -1.5777587, z: -10.033748}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -504,9 +504,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
-    m_Target: 1.2985188
+    m_Target: 1.2075263
     speed: 2
-    m_Value: 1.2985188
+    m_Value: 1.2075263
   m_Ortho:
     m_Target: 1
     speed: 2
@@ -673,9 +673,9 @@ MonoBehaviour:
   m_Position:
     serializedVersion: 2
     x: 0
-    y: 240.8
+    y: 168
     width: 882.4
-    height: 490
+    height: 562.8
   m_MinSize: {x: 201, y: 221}
   m_MaxSize: {x: 4001, y: 4021}
   m_ActualView: {fileID: 2}
@@ -714,7 +714,7 @@ MonoBehaviour:
     m_SaveData: []
   m_LockTracker:
     m_IsLocked: 0
-  m_LastSelectedObjectID: 28846
+  m_LastSelectedObjectID: 28784
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -739,7 +739,7 @@ MonoBehaviour:
   m_MinSize: {x: 100, y: 200}
   m_MaxSize: {x: 8096, y: 16192}
   vertical: 1
-  controlID: 2818
+  controlID: 11693
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -799,7 +799,7 @@ MonoBehaviour:
       scrollPos: {x: 0, y: 0}
       m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: fefaffff8c6d00004e6e0000626e0000d4700000e6710000
+      m_ExpandedIDs: fefaffff8c6d00004e6e0000626e0000e6710000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 

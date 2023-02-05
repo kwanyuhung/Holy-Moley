@@ -136,11 +136,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4481283581753417490, guid: 20d207d2dd3b83142a616de4c85393df, type: 3}
       propertyPath: m_LocalScale.x
-      value: 0.13333334
+      value: 0.042389214
       objectReference: {fileID: 0}
     - target: {fileID: 4481283581753417490, guid: 20d207d2dd3b83142a616de4c85393df, type: 3}
       propertyPath: m_LocalScale.y
-      value: 0.13333334
+      value: 0.033670034
       objectReference: {fileID: 0}
     - target: {fileID: 4481283581753417490, guid: 20d207d2dd3b83142a616de4c85393df, type: 3}
       propertyPath: m_LocalScale.z
@@ -189,6 +189,14 @@ PrefabInstance:
     - target: {fileID: 4481283581753417491, guid: 20d207d2dd3b83142a616de4c85393df, type: 3}
       propertyPath: m_Name
       value: ShortPillar (9)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4481283581753417492, guid: 20d207d2dd3b83142a616de4c85393df, type: 3}
+      propertyPath: m_SpriteTilingProperty.drawMode
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4481283581753417493, guid: 20d207d2dd3b83142a616de4c85393df, type: 3}
+      propertyPath: m_DrawMode
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 20d207d2dd3b83142a616de4c85393df, type: 3}
@@ -284,11 +292,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4481283581753417490, guid: 20d207d2dd3b83142a616de4c85393df, type: 3}
       propertyPath: m_LocalScale.x
-      value: 0.13333334
+      value: 0.042389214
       objectReference: {fileID: 0}
     - target: {fileID: 4481283581753417490, guid: 20d207d2dd3b83142a616de4c85393df, type: 3}
       propertyPath: m_LocalScale.y
-      value: 0.13333334
+      value: 0.033670034
       objectReference: {fileID: 0}
     - target: {fileID: 4481283581753417490, guid: 20d207d2dd3b83142a616de4c85393df, type: 3}
       propertyPath: m_LocalScale.z
@@ -337,6 +345,14 @@ PrefabInstance:
     - target: {fileID: 4481283581753417491, guid: 20d207d2dd3b83142a616de4c85393df, type: 3}
       propertyPath: m_Name
       value: ShortPillar (15)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4481283581753417492, guid: 20d207d2dd3b83142a616de4c85393df, type: 3}
+      propertyPath: m_SpriteTilingProperty.drawMode
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4481283581753417493, guid: 20d207d2dd3b83142a616de4c85393df, type: 3}
+      propertyPath: m_DrawMode
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 20d207d2dd3b83142a616de4c85393df, type: 3}
@@ -1191,7 +1207,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 68605638}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: 0.00070927205, w: 0.99999976}
   m_LocalPosition: {x: 1.875, y: -1.875, z: 0}
   m_LocalScale: {x: 3.75, y: 3.75, z: 4}
   m_ConstrainProportionsScale: 0
@@ -1203,7 +1219,7 @@ Transform:
   - {fileID: 2133347471}
   m_Father: {fileID: 0}
   m_RootOrder: 19
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0.081}
 --- !u!1 &69794407
 GameObject:
   m_ObjectHideFlags: 0
@@ -1433,11 +1449,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4481283581753417490, guid: 20d207d2dd3b83142a616de4c85393df, type: 3}
       propertyPath: m_LocalScale.x
-      value: 0.13333334
+      value: 0.042389214
       objectReference: {fileID: 0}
     - target: {fileID: 4481283581753417490, guid: 20d207d2dd3b83142a616de4c85393df, type: 3}
       propertyPath: m_LocalScale.y
-      value: 0.13333334
+      value: 0.033670034
       objectReference: {fileID: 0}
     - target: {fileID: 4481283581753417490, guid: 20d207d2dd3b83142a616de4c85393df, type: 3}
       propertyPath: m_LocalScale.z
@@ -1486,6 +1502,14 @@ PrefabInstance:
     - target: {fileID: 4481283581753417491, guid: 20d207d2dd3b83142a616de4c85393df, type: 3}
       propertyPath: m_Name
       value: ShortPillar (8)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4481283581753417492, guid: 20d207d2dd3b83142a616de4c85393df, type: 3}
+      propertyPath: m_SpriteTilingProperty.drawMode
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4481283581753417493, guid: 20d207d2dd3b83142a616de4c85393df, type: 3}
+      propertyPath: m_DrawMode
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 20d207d2dd3b83142a616de4c85393df, type: 3}
@@ -2330,11 +2354,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4481283581753417490, guid: 20d207d2dd3b83142a616de4c85393df, type: 3}
       propertyPath: m_LocalScale.x
-      value: 0.13333334
+      value: 0.042389214
       objectReference: {fileID: 0}
     - target: {fileID: 4481283581753417490, guid: 20d207d2dd3b83142a616de4c85393df, type: 3}
       propertyPath: m_LocalScale.y
-      value: 0.13333334
+      value: 0.033670034
       objectReference: {fileID: 0}
     - target: {fileID: 4481283581753417490, guid: 20d207d2dd3b83142a616de4c85393df, type: 3}
       propertyPath: m_LocalScale.z
@@ -2383,6 +2407,14 @@ PrefabInstance:
     - target: {fileID: 4481283581753417491, guid: 20d207d2dd3b83142a616de4c85393df, type: 3}
       propertyPath: m_Name
       value: ShortPillar (20)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4481283581753417492, guid: 20d207d2dd3b83142a616de4c85393df, type: 3}
+      propertyPath: m_SpriteTilingProperty.drawMode
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4481283581753417493, guid: 20d207d2dd3b83142a616de4c85393df, type: 3}
+      propertyPath: m_DrawMode
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 20d207d2dd3b83142a616de4c85393df, type: 3}
@@ -2554,11 +2586,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4481283581753417490, guid: 20d207d2dd3b83142a616de4c85393df, type: 3}
       propertyPath: m_LocalScale.x
-      value: 0.13333334
+      value: 0.042389214
       objectReference: {fileID: 0}
     - target: {fileID: 4481283581753417490, guid: 20d207d2dd3b83142a616de4c85393df, type: 3}
       propertyPath: m_LocalScale.y
-      value: 0.13333334
+      value: 0.033670034
       objectReference: {fileID: 0}
     - target: {fileID: 4481283581753417490, guid: 20d207d2dd3b83142a616de4c85393df, type: 3}
       propertyPath: m_LocalScale.z
@@ -2607,6 +2639,14 @@ PrefabInstance:
     - target: {fileID: 4481283581753417491, guid: 20d207d2dd3b83142a616de4c85393df, type: 3}
       propertyPath: m_Name
       value: ShortPillar (10)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4481283581753417492, guid: 20d207d2dd3b83142a616de4c85393df, type: 3}
+      propertyPath: m_SpriteTilingProperty.drawMode
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4481283581753417493, guid: 20d207d2dd3b83142a616de4c85393df, type: 3}
+      propertyPath: m_DrawMode
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 20d207d2dd3b83142a616de4c85393df, type: 3}
@@ -3792,7 +3832,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 264136590}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: 0.00070927205, w: 0.99999976}
   m_LocalPosition: {x: -1.875, y: -1.8461, z: 0}
   m_LocalScale: {x: 3.75, y: 3.75, z: 4}
   m_ConstrainProportionsScale: 0
@@ -3803,7 +3843,7 @@ Transform:
   - {fileID: 1593126590}
   m_Father: {fileID: 0}
   m_RootOrder: 18
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0.081}
 --- !u!1001 &264956274
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3891,11 +3931,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4481283581753417490, guid: 20d207d2dd3b83142a616de4c85393df, type: 3}
       propertyPath: m_LocalScale.x
-      value: 0.13333334
+      value: 0.042389214
       objectReference: {fileID: 0}
     - target: {fileID: 4481283581753417490, guid: 20d207d2dd3b83142a616de4c85393df, type: 3}
       propertyPath: m_LocalScale.y
-      value: 0.13333334
+      value: 0.033670034
       objectReference: {fileID: 0}
     - target: {fileID: 4481283581753417490, guid: 20d207d2dd3b83142a616de4c85393df, type: 3}
       propertyPath: m_LocalScale.z
@@ -3944,6 +3984,14 @@ PrefabInstance:
     - target: {fileID: 4481283581753417491, guid: 20d207d2dd3b83142a616de4c85393df, type: 3}
       propertyPath: m_Name
       value: ShortPillar (30)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4481283581753417492, guid: 20d207d2dd3b83142a616de4c85393df, type: 3}
+      propertyPath: m_SpriteTilingProperty.drawMode
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4481283581753417493, guid: 20d207d2dd3b83142a616de4c85393df, type: 3}
+      propertyPath: m_DrawMode
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 20d207d2dd3b83142a616de4c85393df, type: 3}
@@ -4653,7 +4701,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 330512785}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.97, y: -1.86, z: 0}
+  m_LocalPosition: {x: 1, y: -2.1, z: 0}
   m_LocalScale: {x: 0.05, y: 0.05, z: 0.05}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -5115,11 +5163,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4481283581753417490, guid: 20d207d2dd3b83142a616de4c85393df, type: 3}
       propertyPath: m_LocalScale.x
-      value: 0.13333334
+      value: 0.042389214
       objectReference: {fileID: 0}
     - target: {fileID: 4481283581753417490, guid: 20d207d2dd3b83142a616de4c85393df, type: 3}
       propertyPath: m_LocalScale.y
-      value: 0.13333334
+      value: 0.033670034
       objectReference: {fileID: 0}
     - target: {fileID: 4481283581753417490, guid: 20d207d2dd3b83142a616de4c85393df, type: 3}
       propertyPath: m_LocalScale.z
@@ -5168,6 +5216,14 @@ PrefabInstance:
     - target: {fileID: 4481283581753417491, guid: 20d207d2dd3b83142a616de4c85393df, type: 3}
       propertyPath: m_Name
       value: ShortPillar (19)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4481283581753417492, guid: 20d207d2dd3b83142a616de4c85393df, type: 3}
+      propertyPath: m_SpriteTilingProperty.drawMode
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4481283581753417493, guid: 20d207d2dd3b83142a616de4c85393df, type: 3}
+      propertyPath: m_DrawMode
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 20d207d2dd3b83142a616de4c85393df, type: 3}
@@ -5787,11 +5843,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4481283581753417490, guid: 20d207d2dd3b83142a616de4c85393df, type: 3}
       propertyPath: m_LocalScale.x
-      value: 0.13333334
+      value: 0.042389214
       objectReference: {fileID: 0}
     - target: {fileID: 4481283581753417490, guid: 20d207d2dd3b83142a616de4c85393df, type: 3}
       propertyPath: m_LocalScale.y
-      value: 0.13333334
+      value: 0.033670034
       objectReference: {fileID: 0}
     - target: {fileID: 4481283581753417490, guid: 20d207d2dd3b83142a616de4c85393df, type: 3}
       propertyPath: m_LocalScale.z
@@ -5840,6 +5896,14 @@ PrefabInstance:
     - target: {fileID: 4481283581753417491, guid: 20d207d2dd3b83142a616de4c85393df, type: 3}
       propertyPath: m_Name
       value: ShortPillar (11)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4481283581753417492, guid: 20d207d2dd3b83142a616de4c85393df, type: 3}
+      propertyPath: m_SpriteTilingProperty.drawMode
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4481283581753417493, guid: 20d207d2dd3b83142a616de4c85393df, type: 3}
+      propertyPath: m_DrawMode
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 20d207d2dd3b83142a616de4c85393df, type: 3}
@@ -6124,7 +6188,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 416103493}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.45, y: -1.84, z: 0}
+  m_LocalPosition: {x: -3.212, y: -1.84, z: 0}
   m_LocalScale: {x: 0.07817845, y: 0.07817845, z: 0.07817845}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -6342,11 +6406,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4481283581753417490, guid: 20d207d2dd3b83142a616de4c85393df, type: 3}
       propertyPath: m_LocalScale.x
-      value: 0.13333334
+      value: 0.042389214
       objectReference: {fileID: 0}
     - target: {fileID: 4481283581753417490, guid: 20d207d2dd3b83142a616de4c85393df, type: 3}
       propertyPath: m_LocalScale.y
-      value: 0.13333334
+      value: 0.033670034
       objectReference: {fileID: 0}
     - target: {fileID: 4481283581753417490, guid: 20d207d2dd3b83142a616de4c85393df, type: 3}
       propertyPath: m_LocalScale.z
@@ -6395,6 +6459,14 @@ PrefabInstance:
     - target: {fileID: 4481283581753417491, guid: 20d207d2dd3b83142a616de4c85393df, type: 3}
       propertyPath: m_Name
       value: ShortPillar (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4481283581753417492, guid: 20d207d2dd3b83142a616de4c85393df, type: 3}
+      propertyPath: m_SpriteTilingProperty.drawMode
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4481283581753417493, guid: 20d207d2dd3b83142a616de4c85393df, type: 3}
+      propertyPath: m_DrawMode
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 20d207d2dd3b83142a616de4c85393df, type: 3}
@@ -6712,11 +6784,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4481283581753417490, guid: 20d207d2dd3b83142a616de4c85393df, type: 3}
       propertyPath: m_LocalScale.x
-      value: 0.13333334
+      value: 0.042389214
       objectReference: {fileID: 0}
     - target: {fileID: 4481283581753417490, guid: 20d207d2dd3b83142a616de4c85393df, type: 3}
       propertyPath: m_LocalScale.y
-      value: 0.13333334
+      value: 0.033670034
       objectReference: {fileID: 0}
     - target: {fileID: 4481283581753417490, guid: 20d207d2dd3b83142a616de4c85393df, type: 3}
       propertyPath: m_LocalScale.z
@@ -6765,6 +6837,14 @@ PrefabInstance:
     - target: {fileID: 4481283581753417491, guid: 20d207d2dd3b83142a616de4c85393df, type: 3}
       propertyPath: m_Name
       value: ShortPillar
+      objectReference: {fileID: 0}
+    - target: {fileID: 4481283581753417492, guid: 20d207d2dd3b83142a616de4c85393df, type: 3}
+      propertyPath: m_SpriteTilingProperty.drawMode
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4481283581753417493, guid: 20d207d2dd3b83142a616de4c85393df, type: 3}
+      propertyPath: m_DrawMode
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 20d207d2dd3b83142a616de4c85393df, type: 3}
@@ -6860,11 +6940,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4481283581753417490, guid: 20d207d2dd3b83142a616de4c85393df, type: 3}
       propertyPath: m_LocalScale.x
-      value: 0.13333334
+      value: 0.042389214
       objectReference: {fileID: 0}
     - target: {fileID: 4481283581753417490, guid: 20d207d2dd3b83142a616de4c85393df, type: 3}
       propertyPath: m_LocalScale.y
-      value: 0.13333334
+      value: 0.033670034
       objectReference: {fileID: 0}
     - target: {fileID: 4481283581753417490, guid: 20d207d2dd3b83142a616de4c85393df, type: 3}
       propertyPath: m_LocalScale.z
@@ -6913,6 +6993,14 @@ PrefabInstance:
     - target: {fileID: 4481283581753417491, guid: 20d207d2dd3b83142a616de4c85393df, type: 3}
       propertyPath: m_Name
       value: ShortPillar (26)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4481283581753417492, guid: 20d207d2dd3b83142a616de4c85393df, type: 3}
+      propertyPath: m_SpriteTilingProperty.drawMode
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4481283581753417493, guid: 20d207d2dd3b83142a616de4c85393df, type: 3}
+      propertyPath: m_DrawMode
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 20d207d2dd3b83142a616de4c85393df, type: 3}
@@ -8174,11 +8262,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4481283581753417490, guid: 20d207d2dd3b83142a616de4c85393df, type: 3}
       propertyPath: m_LocalScale.x
-      value: 0.13333334
+      value: 0.042389214
       objectReference: {fileID: 0}
     - target: {fileID: 4481283581753417490, guid: 20d207d2dd3b83142a616de4c85393df, type: 3}
       propertyPath: m_LocalScale.y
-      value: 0.13333334
+      value: 0.033670034
       objectReference: {fileID: 0}
     - target: {fileID: 4481283581753417490, guid: 20d207d2dd3b83142a616de4c85393df, type: 3}
       propertyPath: m_LocalScale.z
@@ -8227,6 +8315,14 @@ PrefabInstance:
     - target: {fileID: 4481283581753417491, guid: 20d207d2dd3b83142a616de4c85393df, type: 3}
       propertyPath: m_Name
       value: ShortPillar (29)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4481283581753417492, guid: 20d207d2dd3b83142a616de4c85393df, type: 3}
+      propertyPath: m_SpriteTilingProperty.drawMode
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4481283581753417493, guid: 20d207d2dd3b83142a616de4c85393df, type: 3}
+      propertyPath: m_DrawMode
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 20d207d2dd3b83142a616de4c85393df, type: 3}
@@ -9076,11 +9172,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4481283581753417490, guid: 20d207d2dd3b83142a616de4c85393df, type: 3}
       propertyPath: m_LocalScale.x
-      value: 0.13333334
+      value: 0.042389214
       objectReference: {fileID: 0}
     - target: {fileID: 4481283581753417490, guid: 20d207d2dd3b83142a616de4c85393df, type: 3}
       propertyPath: m_LocalScale.y
-      value: 0.13333334
+      value: 0.033670034
       objectReference: {fileID: 0}
     - target: {fileID: 4481283581753417490, guid: 20d207d2dd3b83142a616de4c85393df, type: 3}
       propertyPath: m_LocalScale.z
@@ -9129,6 +9225,14 @@ PrefabInstance:
     - target: {fileID: 4481283581753417491, guid: 20d207d2dd3b83142a616de4c85393df, type: 3}
       propertyPath: m_Name
       value: ShortPillar (33)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4481283581753417492, guid: 20d207d2dd3b83142a616de4c85393df, type: 3}
+      propertyPath: m_SpriteTilingProperty.drawMode
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4481283581753417493, guid: 20d207d2dd3b83142a616de4c85393df, type: 3}
+      propertyPath: m_DrawMode
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 20d207d2dd3b83142a616de4c85393df, type: 3}
@@ -9983,11 +10087,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4481283581753417490, guid: 20d207d2dd3b83142a616de4c85393df, type: 3}
       propertyPath: m_LocalScale.x
-      value: 0.13333334
+      value: 0.042389214
       objectReference: {fileID: 0}
     - target: {fileID: 4481283581753417490, guid: 20d207d2dd3b83142a616de4c85393df, type: 3}
       propertyPath: m_LocalScale.y
-      value: 0.13333334
+      value: 0.033670034
       objectReference: {fileID: 0}
     - target: {fileID: 4481283581753417490, guid: 20d207d2dd3b83142a616de4c85393df, type: 3}
       propertyPath: m_LocalScale.z
@@ -10036,6 +10140,14 @@ PrefabInstance:
     - target: {fileID: 4481283581753417491, guid: 20d207d2dd3b83142a616de4c85393df, type: 3}
       propertyPath: m_Name
       value: ShortPillar (28)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4481283581753417492, guid: 20d207d2dd3b83142a616de4c85393df, type: 3}
+      propertyPath: m_SpriteTilingProperty.drawMode
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4481283581753417493, guid: 20d207d2dd3b83142a616de4c85393df, type: 3}
+      propertyPath: m_DrawMode
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 20d207d2dd3b83142a616de4c85393df, type: 3}
@@ -10508,7 +10620,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 780897155}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -1, y: -1.7400026, z: 0}
+  m_LocalPosition: {x: 74.8, y: -19.8, z: 0}
   m_LocalScale: {x: 20, y: 20, z: 20}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -10602,11 +10714,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4481283581753417490, guid: 20d207d2dd3b83142a616de4c85393df, type: 3}
       propertyPath: m_LocalScale.x
-      value: 0.13333334
+      value: 0.042389214
       objectReference: {fileID: 0}
     - target: {fileID: 4481283581753417490, guid: 20d207d2dd3b83142a616de4c85393df, type: 3}
       propertyPath: m_LocalScale.y
-      value: 0.13333334
+      value: 0.033670034
       objectReference: {fileID: 0}
     - target: {fileID: 4481283581753417490, guid: 20d207d2dd3b83142a616de4c85393df, type: 3}
       propertyPath: m_LocalScale.z
@@ -10655,6 +10767,14 @@ PrefabInstance:
     - target: {fileID: 4481283581753417491, guid: 20d207d2dd3b83142a616de4c85393df, type: 3}
       propertyPath: m_Name
       value: ShortPillar (21)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4481283581753417492, guid: 20d207d2dd3b83142a616de4c85393df, type: 3}
+      propertyPath: m_SpriteTilingProperty.drawMode
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4481283581753417493, guid: 20d207d2dd3b83142a616de4c85393df, type: 3}
+      propertyPath: m_DrawMode
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 20d207d2dd3b83142a616de4c85393df, type: 3}
@@ -11182,7 +11302,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 820714545}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -2.5, y: -1.51, z: 0}
+  m_LocalPosition: {x: 0.52, y: 3.17, z: 0}
   m_LocalScale: {x: 0.07817845, y: 0.07817845, z: 0.07817845}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -12002,11 +12122,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4481283581753417490, guid: 20d207d2dd3b83142a616de4c85393df, type: 3}
       propertyPath: m_LocalScale.x
-      value: 0.13333334
+      value: 0.042389214
       objectReference: {fileID: 0}
     - target: {fileID: 4481283581753417490, guid: 20d207d2dd3b83142a616de4c85393df, type: 3}
       propertyPath: m_LocalScale.y
-      value: 0.13333334
+      value: 0.033670034
       objectReference: {fileID: 0}
     - target: {fileID: 4481283581753417490, guid: 20d207d2dd3b83142a616de4c85393df, type: 3}
       propertyPath: m_LocalScale.z
@@ -12055,6 +12175,14 @@ PrefabInstance:
     - target: {fileID: 4481283581753417491, guid: 20d207d2dd3b83142a616de4c85393df, type: 3}
       propertyPath: m_Name
       value: ShortPillar (14)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4481283581753417492, guid: 20d207d2dd3b83142a616de4c85393df, type: 3}
+      propertyPath: m_SpriteTilingProperty.drawMode
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4481283581753417493, guid: 20d207d2dd3b83142a616de4c85393df, type: 3}
+      propertyPath: m_DrawMode
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 20d207d2dd3b83142a616de4c85393df, type: 3}
@@ -13591,11 +13719,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4481283581753417490, guid: 20d207d2dd3b83142a616de4c85393df, type: 3}
       propertyPath: m_LocalScale.x
-      value: 0.13333334
+      value: 0.042389214
       objectReference: {fileID: 0}
     - target: {fileID: 4481283581753417490, guid: 20d207d2dd3b83142a616de4c85393df, type: 3}
       propertyPath: m_LocalScale.y
-      value: 0.13333334
+      value: 0.033670034
       objectReference: {fileID: 0}
     - target: {fileID: 4481283581753417490, guid: 20d207d2dd3b83142a616de4c85393df, type: 3}
       propertyPath: m_LocalScale.z
@@ -13644,6 +13772,14 @@ PrefabInstance:
     - target: {fileID: 4481283581753417491, guid: 20d207d2dd3b83142a616de4c85393df, type: 3}
       propertyPath: m_Name
       value: ShortPillar (25)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4481283581753417492, guid: 20d207d2dd3b83142a616de4c85393df, type: 3}
+      propertyPath: m_SpriteTilingProperty.drawMode
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4481283581753417493, guid: 20d207d2dd3b83142a616de4c85393df, type: 3}
+      propertyPath: m_DrawMode
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 20d207d2dd3b83142a616de4c85393df, type: 3}
@@ -14252,7 +14388,7 @@ Camera:
   m_Enabled: 1
   serializedVersion: 2
   m_ClearFlags: 1
-  m_BackGroundColor: {r: 1, g: 1, b: 1, a: 0}
+  m_BackGroundColor: {r: 1, g: 0.48490566, b: 0.48490566, a: 0}
   m_projectionMatrixMode: 1
   m_GateFitMode: 2
   m_FOVAxisMode: 0
@@ -14267,7 +14403,7 @@ Camera:
     height: 1
   near clip plane: 0.3
   far clip plane: 1000
-  field of view: 8
+  field of view: 11
   orthographic: 0
   orthographic size: 5
   m_Depth: -1
@@ -14293,7 +14429,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1054917344}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 1.79, y: -1.83, z: -10.144909}
+  m_LocalPosition: {x: 1.9, y: -1.9, z: -10.144909}
   m_LocalScale: {x: 1.014491, y: 1.014491, z: 1.014491}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -14367,7 +14503,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1054917344}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c3d0f6ccf72a0e64f98ba9b807a9541c, type: 3}
   m_Name: 
@@ -14538,11 +14674,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4481283581753417490, guid: 20d207d2dd3b83142a616de4c85393df, type: 3}
       propertyPath: m_LocalScale.x
-      value: 0.13333334
+      value: 0.042389214
       objectReference: {fileID: 0}
     - target: {fileID: 4481283581753417490, guid: 20d207d2dd3b83142a616de4c85393df, type: 3}
       propertyPath: m_LocalScale.y
-      value: 0.13333334
+      value: 0.033670034
       objectReference: {fileID: 0}
     - target: {fileID: 4481283581753417490, guid: 20d207d2dd3b83142a616de4c85393df, type: 3}
       propertyPath: m_LocalScale.z
@@ -14591,6 +14727,14 @@ PrefabInstance:
     - target: {fileID: 4481283581753417491, guid: 20d207d2dd3b83142a616de4c85393df, type: 3}
       propertyPath: m_Name
       value: ShortPillar (12)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4481283581753417492, guid: 20d207d2dd3b83142a616de4c85393df, type: 3}
+      propertyPath: m_SpriteTilingProperty.drawMode
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4481283581753417493, guid: 20d207d2dd3b83142a616de4c85393df, type: 3}
+      propertyPath: m_DrawMode
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 20d207d2dd3b83142a616de4c85393df, type: 3}
@@ -15452,11 +15596,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4481283581753417490, guid: 20d207d2dd3b83142a616de4c85393df, type: 3}
       propertyPath: m_LocalScale.x
-      value: 0.13333334
+      value: 0.042389214
       objectReference: {fileID: 0}
     - target: {fileID: 4481283581753417490, guid: 20d207d2dd3b83142a616de4c85393df, type: 3}
       propertyPath: m_LocalScale.y
-      value: 0.13333334
+      value: 0.033670034
       objectReference: {fileID: 0}
     - target: {fileID: 4481283581753417490, guid: 20d207d2dd3b83142a616de4c85393df, type: 3}
       propertyPath: m_LocalScale.z
@@ -15505,6 +15649,14 @@ PrefabInstance:
     - target: {fileID: 4481283581753417491, guid: 20d207d2dd3b83142a616de4c85393df, type: 3}
       propertyPath: m_Name
       value: ShortPillar (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4481283581753417492, guid: 20d207d2dd3b83142a616de4c85393df, type: 3}
+      propertyPath: m_SpriteTilingProperty.drawMode
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4481283581753417493, guid: 20d207d2dd3b83142a616de4c85393df, type: 3}
+      propertyPath: m_DrawMode
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 20d207d2dd3b83142a616de4c85393df, type: 3}
@@ -15600,11 +15752,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4481283581753417490, guid: 20d207d2dd3b83142a616de4c85393df, type: 3}
       propertyPath: m_LocalScale.x
-      value: 0.13333334
+      value: 0.042389214
       objectReference: {fileID: 0}
     - target: {fileID: 4481283581753417490, guid: 20d207d2dd3b83142a616de4c85393df, type: 3}
       propertyPath: m_LocalScale.y
-      value: 0.13333334
+      value: 0.033670034
       objectReference: {fileID: 0}
     - target: {fileID: 4481283581753417490, guid: 20d207d2dd3b83142a616de4c85393df, type: 3}
       propertyPath: m_LocalScale.z
@@ -15653,6 +15805,14 @@ PrefabInstance:
     - target: {fileID: 4481283581753417491, guid: 20d207d2dd3b83142a616de4c85393df, type: 3}
       propertyPath: m_Name
       value: ShortPillar (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4481283581753417492, guid: 20d207d2dd3b83142a616de4c85393df, type: 3}
+      propertyPath: m_SpriteTilingProperty.drawMode
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4481283581753417493, guid: 20d207d2dd3b83142a616de4c85393df, type: 3}
+      propertyPath: m_DrawMode
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 20d207d2dd3b83142a616de4c85393df, type: 3}
@@ -15916,9 +16076,9 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1255972240}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: 0.00070927205, w: 0.99999976}
   m_LocalPosition: {x: -1.8374, y: 1.8684, z: 0}
-  m_LocalScale: {x: 0.36672658, y: 0.37103602, z: 1}
+  m_LocalScale: {x: 0.36672655, y: 0.37103602, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 285127532}
@@ -15927,7 +16087,7 @@ Transform:
   - {fileID: 748517932}
   m_Father: {fileID: 0}
   m_RootOrder: 16
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0.081}
 --- !u!1001 &1257872492
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -17002,11 +17162,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4367830285424382749, guid: 3d5beec1b1547484eb42781ec130b7d2, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -0.4507405
+      value: -0.458
       objectReference: {fileID: 0}
     - target: {fileID: 4367830285424382749, guid: 3d5beec1b1547484eb42781ec130b7d2, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.0012454669
+      value: -0.001
       objectReference: {fileID: 0}
     - target: {fileID: 4367830285424382749, guid: 3d5beec1b1547484eb42781ec130b7d2, type: 3}
       propertyPath: m_LocalPosition.z
@@ -17428,7 +17588,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1363126319}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: 0.00070927205, w: 0.99999976}
   m_LocalPosition: {x: 1.8749998, y: 1.875, z: 0}
   m_LocalScale: {x: 3.75, y: 3.75, z: 4}
   m_ConstrainProportionsScale: 0
@@ -17438,7 +17598,7 @@ Transform:
   - {fileID: 1915947599}
   m_Father: {fileID: 0}
   m_RootOrder: 17
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0.081}
 --- !u!1001 &1390500881
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -18039,11 +18199,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4481283581753417490, guid: 20d207d2dd3b83142a616de4c85393df, type: 3}
       propertyPath: m_LocalScale.x
-      value: 0.13333334
+      value: 0.042389214
       objectReference: {fileID: 0}
     - target: {fileID: 4481283581753417490, guid: 20d207d2dd3b83142a616de4c85393df, type: 3}
       propertyPath: m_LocalScale.y
-      value: 0.13333334
+      value: 0.033670034
       objectReference: {fileID: 0}
     - target: {fileID: 4481283581753417490, guid: 20d207d2dd3b83142a616de4c85393df, type: 3}
       propertyPath: m_LocalScale.z
@@ -18092,6 +18252,14 @@ PrefabInstance:
     - target: {fileID: 4481283581753417491, guid: 20d207d2dd3b83142a616de4c85393df, type: 3}
       propertyPath: m_Name
       value: ShortPillar (7)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4481283581753417492, guid: 20d207d2dd3b83142a616de4c85393df, type: 3}
+      propertyPath: m_SpriteTilingProperty.drawMode
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4481283581753417493, guid: 20d207d2dd3b83142a616de4c85393df, type: 3}
+      propertyPath: m_DrawMode
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 20d207d2dd3b83142a616de4c85393df, type: 3}
@@ -18335,11 +18503,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4481283581753417490, guid: 20d207d2dd3b83142a616de4c85393df, type: 3}
       propertyPath: m_LocalScale.x
-      value: 0.13333334
+      value: 0.042389214
       objectReference: {fileID: 0}
     - target: {fileID: 4481283581753417490, guid: 20d207d2dd3b83142a616de4c85393df, type: 3}
       propertyPath: m_LocalScale.y
-      value: 0.13333334
+      value: 0.033670034
       objectReference: {fileID: 0}
     - target: {fileID: 4481283581753417490, guid: 20d207d2dd3b83142a616de4c85393df, type: 3}
       propertyPath: m_LocalScale.z
@@ -18388,6 +18556,14 @@ PrefabInstance:
     - target: {fileID: 4481283581753417491, guid: 20d207d2dd3b83142a616de4c85393df, type: 3}
       propertyPath: m_Name
       value: ShortPillar (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4481283581753417492, guid: 20d207d2dd3b83142a616de4c85393df, type: 3}
+      propertyPath: m_SpriteTilingProperty.drawMode
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4481283581753417493, guid: 20d207d2dd3b83142a616de4c85393df, type: 3}
+      propertyPath: m_DrawMode
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 20d207d2dd3b83142a616de4c85393df, type: 3}
@@ -18896,11 +19072,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4481283581753417490, guid: 20d207d2dd3b83142a616de4c85393df, type: 3}
       propertyPath: m_LocalScale.x
-      value: 0.13333334
+      value: 0.042389214
       objectReference: {fileID: 0}
     - target: {fileID: 4481283581753417490, guid: 20d207d2dd3b83142a616de4c85393df, type: 3}
       propertyPath: m_LocalScale.y
-      value: 0.13333334
+      value: 0.033670034
       objectReference: {fileID: 0}
     - target: {fileID: 4481283581753417490, guid: 20d207d2dd3b83142a616de4c85393df, type: 3}
       propertyPath: m_LocalScale.z
@@ -18949,6 +19125,14 @@ PrefabInstance:
     - target: {fileID: 4481283581753417491, guid: 20d207d2dd3b83142a616de4c85393df, type: 3}
       propertyPath: m_Name
       value: ShortPillar (18)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4481283581753417492, guid: 20d207d2dd3b83142a616de4c85393df, type: 3}
+      propertyPath: m_SpriteTilingProperty.drawMode
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4481283581753417493, guid: 20d207d2dd3b83142a616de4c85393df, type: 3}
+      propertyPath: m_DrawMode
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 20d207d2dd3b83142a616de4c85393df, type: 3}
@@ -19668,11 +19852,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4481283581753417490, guid: 20d207d2dd3b83142a616de4c85393df, type: 3}
       propertyPath: m_LocalScale.x
-      value: 0.13333334
+      value: 0.042389214
       objectReference: {fileID: 0}
     - target: {fileID: 4481283581753417490, guid: 20d207d2dd3b83142a616de4c85393df, type: 3}
       propertyPath: m_LocalScale.y
-      value: 0.13333334
+      value: 0.033670034
       objectReference: {fileID: 0}
     - target: {fileID: 4481283581753417490, guid: 20d207d2dd3b83142a616de4c85393df, type: 3}
       propertyPath: m_LocalScale.z
@@ -19721,6 +19905,14 @@ PrefabInstance:
     - target: {fileID: 4481283581753417491, guid: 20d207d2dd3b83142a616de4c85393df, type: 3}
       propertyPath: m_Name
       value: ShortPillar (16)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4481283581753417492, guid: 20d207d2dd3b83142a616de4c85393df, type: 3}
+      propertyPath: m_SpriteTilingProperty.drawMode
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4481283581753417493, guid: 20d207d2dd3b83142a616de4c85393df, type: 3}
+      propertyPath: m_DrawMode
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 20d207d2dd3b83142a616de4c85393df, type: 3}
@@ -19818,11 +20010,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4481283581753417490, guid: 20d207d2dd3b83142a616de4c85393df, type: 3}
       propertyPath: m_LocalScale.x
-      value: 0.13333334
+      value: 0.042389214
       objectReference: {fileID: 0}
     - target: {fileID: 4481283581753417490, guid: 20d207d2dd3b83142a616de4c85393df, type: 3}
       propertyPath: m_LocalScale.y
-      value: 0.13333334
+      value: 0.033670034
       objectReference: {fileID: 0}
     - target: {fileID: 4481283581753417490, guid: 20d207d2dd3b83142a616de4c85393df, type: 3}
       propertyPath: m_LocalScale.z
@@ -19871,6 +20063,14 @@ PrefabInstance:
     - target: {fileID: 4481283581753417491, guid: 20d207d2dd3b83142a616de4c85393df, type: 3}
       propertyPath: m_Name
       value: ShortPillar (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4481283581753417492, guid: 20d207d2dd3b83142a616de4c85393df, type: 3}
+      propertyPath: m_SpriteTilingProperty.drawMode
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4481283581753417493, guid: 20d207d2dd3b83142a616de4c85393df, type: 3}
+      propertyPath: m_DrawMode
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 20d207d2dd3b83142a616de4c85393df, type: 3}
@@ -20123,11 +20323,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4481283581753417490, guid: 20d207d2dd3b83142a616de4c85393df, type: 3}
       propertyPath: m_LocalScale.x
-      value: 0.13333334
+      value: 0.042389214
       objectReference: {fileID: 0}
     - target: {fileID: 4481283581753417490, guid: 20d207d2dd3b83142a616de4c85393df, type: 3}
       propertyPath: m_LocalScale.y
-      value: 0.13333334
+      value: 0.033670034
       objectReference: {fileID: 0}
     - target: {fileID: 4481283581753417490, guid: 20d207d2dd3b83142a616de4c85393df, type: 3}
       propertyPath: m_LocalScale.z
@@ -20176,6 +20376,14 @@ PrefabInstance:
     - target: {fileID: 4481283581753417491, guid: 20d207d2dd3b83142a616de4c85393df, type: 3}
       propertyPath: m_Name
       value: ShortPillar (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4481283581753417492, guid: 20d207d2dd3b83142a616de4c85393df, type: 3}
+      propertyPath: m_SpriteTilingProperty.drawMode
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4481283581753417493, guid: 20d207d2dd3b83142a616de4c85393df, type: 3}
+      propertyPath: m_DrawMode
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 20d207d2dd3b83142a616de4c85393df, type: 3}
@@ -21158,7 +21366,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1704099072}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 2.74, y: -1.76, z: 0}
+  m_LocalPosition: {x: 2.82, y: -1.81, z: 0}
   m_LocalScale: {x: 0.05, y: 0.05, z: 0.05}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -22102,11 +22310,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4481283581753417490, guid: 20d207d2dd3b83142a616de4c85393df, type: 3}
       propertyPath: m_LocalScale.x
-      value: 0.13333334
+      value: 0.042389214
       objectReference: {fileID: 0}
     - target: {fileID: 4481283581753417490, guid: 20d207d2dd3b83142a616de4c85393df, type: 3}
       propertyPath: m_LocalScale.y
-      value: 0.13333334
+      value: 0.033670034
       objectReference: {fileID: 0}
     - target: {fileID: 4481283581753417490, guid: 20d207d2dd3b83142a616de4c85393df, type: 3}
       propertyPath: m_LocalScale.z
@@ -22156,6 +22364,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: ShortPillar (24)
       objectReference: {fileID: 0}
+    - target: {fileID: 4481283581753417492, guid: 20d207d2dd3b83142a616de4c85393df, type: 3}
+      propertyPath: m_SpriteTilingProperty.drawMode
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4481283581753417493, guid: 20d207d2dd3b83142a616de4c85393df, type: 3}
+      propertyPath: m_DrawMode
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 20d207d2dd3b83142a616de4c85393df, type: 3}
 --- !u!4 &1771318033 stripped
@@ -22176,11 +22392,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4481283581753417490, guid: 20d207d2dd3b83142a616de4c85393df, type: 3}
       propertyPath: m_LocalScale.x
-      value: 0.13333334
+      value: 0.042389214
       objectReference: {fileID: 0}
     - target: {fileID: 4481283581753417490, guid: 20d207d2dd3b83142a616de4c85393df, type: 3}
       propertyPath: m_LocalScale.y
-      value: 0.13333334
+      value: 0.033670034
       objectReference: {fileID: 0}
     - target: {fileID: 4481283581753417490, guid: 20d207d2dd3b83142a616de4c85393df, type: 3}
       propertyPath: m_LocalScale.z
@@ -22229,6 +22445,14 @@ PrefabInstance:
     - target: {fileID: 4481283581753417491, guid: 20d207d2dd3b83142a616de4c85393df, type: 3}
       propertyPath: m_Name
       value: ShortPillar (34)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4481283581753417492, guid: 20d207d2dd3b83142a616de4c85393df, type: 3}
+      propertyPath: m_SpriteTilingProperty.drawMode
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4481283581753417493, guid: 20d207d2dd3b83142a616de4c85393df, type: 3}
+      propertyPath: m_DrawMode
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 20d207d2dd3b83142a616de4c85393df, type: 3}
@@ -22556,11 +22780,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4481283581753417490, guid: 20d207d2dd3b83142a616de4c85393df, type: 3}
       propertyPath: m_LocalScale.x
-      value: 0.13333334
+      value: 0.042389214
       objectReference: {fileID: 0}
     - target: {fileID: 4481283581753417490, guid: 20d207d2dd3b83142a616de4c85393df, type: 3}
       propertyPath: m_LocalScale.y
-      value: 0.13333334
+      value: 0.033670034
       objectReference: {fileID: 0}
     - target: {fileID: 4481283581753417490, guid: 20d207d2dd3b83142a616de4c85393df, type: 3}
       propertyPath: m_LocalScale.z
@@ -22609,6 +22833,14 @@ PrefabInstance:
     - target: {fileID: 4481283581753417491, guid: 20d207d2dd3b83142a616de4c85393df, type: 3}
       propertyPath: m_Name
       value: ShortPillar (35)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4481283581753417492, guid: 20d207d2dd3b83142a616de4c85393df, type: 3}
+      propertyPath: m_SpriteTilingProperty.drawMode
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4481283581753417493, guid: 20d207d2dd3b83142a616de4c85393df, type: 3}
+      propertyPath: m_DrawMode
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 20d207d2dd3b83142a616de4c85393df, type: 3}
@@ -23949,11 +24181,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4481283581753417490, guid: 20d207d2dd3b83142a616de4c85393df, type: 3}
       propertyPath: m_LocalScale.x
-      value: 0.13333334
+      value: 0.042389214
       objectReference: {fileID: 0}
     - target: {fileID: 4481283581753417490, guid: 20d207d2dd3b83142a616de4c85393df, type: 3}
       propertyPath: m_LocalScale.y
-      value: 0.13333334
+      value: 0.033670034
       objectReference: {fileID: 0}
     - target: {fileID: 4481283581753417490, guid: 20d207d2dd3b83142a616de4c85393df, type: 3}
       propertyPath: m_LocalScale.z
@@ -24002,6 +24234,14 @@ PrefabInstance:
     - target: {fileID: 4481283581753417491, guid: 20d207d2dd3b83142a616de4c85393df, type: 3}
       propertyPath: m_Name
       value: ShortPillar (13)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4481283581753417492, guid: 20d207d2dd3b83142a616de4c85393df, type: 3}
+      propertyPath: m_SpriteTilingProperty.drawMode
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4481283581753417493, guid: 20d207d2dd3b83142a616de4c85393df, type: 3}
+      propertyPath: m_DrawMode
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 20d207d2dd3b83142a616de4c85393df, type: 3}
@@ -24284,7 +24524,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1992931048}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -1.329, y: -0.947, z: 0}
+  m_LocalPosition: {x: -2.2, y: 0.76, z: 0}
   m_LocalScale: {x: 0.07817845, y: 0.07817845, z: 0.07817845}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -24604,11 +24844,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4481283581753417490, guid: 20d207d2dd3b83142a616de4c85393df, type: 3}
       propertyPath: m_LocalScale.x
-      value: 0.13333334
+      value: 0.042389214
       objectReference: {fileID: 0}
     - target: {fileID: 4481283581753417490, guid: 20d207d2dd3b83142a616de4c85393df, type: 3}
       propertyPath: m_LocalScale.y
-      value: 0.13333334
+      value: 0.033670034
       objectReference: {fileID: 0}
     - target: {fileID: 4481283581753417490, guid: 20d207d2dd3b83142a616de4c85393df, type: 3}
       propertyPath: m_LocalScale.z
@@ -24657,6 +24897,14 @@ PrefabInstance:
     - target: {fileID: 4481283581753417491, guid: 20d207d2dd3b83142a616de4c85393df, type: 3}
       propertyPath: m_Name
       value: ShortPillar (27)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4481283581753417492, guid: 20d207d2dd3b83142a616de4c85393df, type: 3}
+      propertyPath: m_SpriteTilingProperty.drawMode
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4481283581753417493, guid: 20d207d2dd3b83142a616de4c85393df, type: 3}
+      propertyPath: m_DrawMode
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 20d207d2dd3b83142a616de4c85393df, type: 3}
@@ -25251,11 +25499,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4481283581753417490, guid: 20d207d2dd3b83142a616de4c85393df, type: 3}
       propertyPath: m_LocalScale.x
-      value: 0.13333334
+      value: 0.042389214
       objectReference: {fileID: 0}
     - target: {fileID: 4481283581753417490, guid: 20d207d2dd3b83142a616de4c85393df, type: 3}
       propertyPath: m_LocalScale.y
-      value: 0.13333334
+      value: 0.033670034
       objectReference: {fileID: 0}
     - target: {fileID: 4481283581753417490, guid: 20d207d2dd3b83142a616de4c85393df, type: 3}
       propertyPath: m_LocalScale.z
@@ -25304,6 +25552,14 @@ PrefabInstance:
     - target: {fileID: 4481283581753417491, guid: 20d207d2dd3b83142a616de4c85393df, type: 3}
       propertyPath: m_Name
       value: ShortPillar (17)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4481283581753417492, guid: 20d207d2dd3b83142a616de4c85393df, type: 3}
+      propertyPath: m_SpriteTilingProperty.drawMode
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4481283581753417493, guid: 20d207d2dd3b83142a616de4c85393df, type: 3}
+      propertyPath: m_DrawMode
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 20d207d2dd3b83142a616de4c85393df, type: 3}
