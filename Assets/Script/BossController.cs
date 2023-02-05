@@ -7,7 +7,7 @@ public class BossController : MonoBehaviour
     public float moveSpeed;
     public Rigidbody2D rb;
     //public Camera cam;
-    //private Animator ani;
+    private Animator ani;
     //public SoundSFX soundEffect;
     //bool isWalking = false;
     Vector2 movement;
@@ -25,7 +25,7 @@ public class BossController : MonoBehaviour
     public Transform seed1Position;
     void Start()
     {
-        //ani = GetComponent<Animator>();
+        ani = GetComponent<Animator>();
     }
 
     // Update is called once per frame
@@ -38,7 +38,7 @@ public class BossController : MonoBehaviour
 
         if (movement.x > 0 || movement.y > 0 || movement.x < 0 || movement.y < 0)
         {
-            //ani.SetBool("isWalk", true);
+            ani.SetBool("isWalk", true);
             // soundEffect.footstep.Play();
 
 
@@ -46,7 +46,7 @@ public class BossController : MonoBehaviour
         }
         else if (movement.x == 0 || movement.y == 0)
         {
-            //ani.SetBool("isWalk", false);
+            ani.SetBool("isWalk", false);
         }
 
     }
@@ -70,14 +70,14 @@ public class BossController : MonoBehaviour
         //flip the character
         if (movement.x >= 0.01f)
         {
-            transform.localScale = new Vector3(0.05f, 0.05f, 0.05f);
+            transform.localScale = new Vector3(-0.05f, 0.05f, 0.05f);
 
         }
 
 
         else if (movement.x < -0.01f)
         {
-            transform.localScale = new Vector3(-0.05f, 0.05f, 0.05f);
+            transform.localScale = new Vector3(0.05f, 0.05f, 0.05f);
 
         }
 
@@ -104,6 +104,11 @@ public class BossController : MonoBehaviour
             collision.gameObject.SetActive(false);
             seed3UI.gameObject.SetActive(true);
             totalSeedUI3.gameObject.SetActive(false);
+        }
+
+        if (collision.gameObject.tag == "Sand")
+        {
+            collision.gameObject.SetActive(false);
         }
     }
 }
