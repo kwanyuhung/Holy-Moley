@@ -1979,6 +1979,7 @@ GameObject:
   - component: {fileID: 330512789}
   - component: {fileID: 330512788}
   - component: {fileID: 330512790}
+  - component: {fileID: 330512791}
   m_Layer: 0
   m_Name: Isometric Diamond
   m_TagString: Untagged
@@ -2046,7 +2047,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 330512785}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -1.88, y: 1.3, z: 0}
+  m_LocalPosition: {x: -1.875, y: -3.5, z: 0}
   m_LocalScale: {x: 0.05, y: 0.05, z: 0.05}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -2112,6 +2113,24 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 2.5
+--- !u!114 &330512791
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 330512785}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8b49e7080d0751f4888d767c7f87719c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  block1: {fileID: 1530167251}
+  block2: {fileID: 1217824755}
+  block3: {fileID: 150613616}
+  block4: {fileID: 1064483752}
+  tempPosition1and4: {x: 0, y: 0, z: 0}
+  tempPosition2and3: {x: 0, y: 0, z: 0}
 --- !u!1001 &332445086
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5325,7 +5344,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 761693571}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 8b49e7080d0751f4888d767c7f87719c, type: 3}
   m_Name: 

@@ -10,6 +10,7 @@ TagManager:
   - Seed2
   - Seed3
   - Sand
+  - Digging Spot
   layers:
   - Default
   - TransparentFX

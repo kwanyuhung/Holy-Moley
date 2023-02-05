@@ -8,23 +8,29 @@ public class SwapBlock : MonoBehaviour
     public GameObject block2;
     public GameObject block3;
     public GameObject block4;
+    private bool swap;
 
     public Vector3 tempPosition1and4;
     public Vector3 tempPosition2and3;
     // Start is called before the first frame update
     void Start()
     {
-        
+        swap = false;
     }
 
     // Update is called once per frame
     void Update()
     {
-        if(Input.GetKeyDown(KeyCode.P))
+        if (Input.GetKeyDown(KeyCode.P) && swap)
         {
             Swap1and4();
             Swap2and3();
         }
+    }
+
+    public void SwapBlocks()
+    {
+        swap = !swap;
     }
 
     public void Swap1and4()

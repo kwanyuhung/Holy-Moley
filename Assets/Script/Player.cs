@@ -21,6 +21,7 @@ public class Player : MonoBehaviour
     public GameObject totalSeedUI1;
     public GameObject totalSeedUI2;
     public GameObject totalSeedUI3;
+
     void Start()
     {
         ani = GetComponent<Animator>();
@@ -104,6 +105,22 @@ public class Player : MonoBehaviour
         if(collision.gameObject.tag == "Sand")
         {
             collision.gameObject.SetActive(false);
+        }
+    }
+
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if(collision.gameObject.tag == "Digging Spot")
+        {
+            GetComponent<SwapBlock>().SwapBlocks();
+        }
+    }
+
+    private void OnTriggerExit2D(Collider2D collision)
+    {
+        if(collision.gameObject.tag == "Digging Spot")
+        {
+            GetComponent<SwapBlock>().SwapBlocks();
         }
     }
 }
