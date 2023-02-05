@@ -71,6 +71,7 @@ public class Player : MonoBehaviour
         if (movement.x >= 0.01f)
         {
             transform.localScale = new Vector3(0.05f, 0.05f, 0.05f);
+            
 
         }
 
@@ -79,6 +80,19 @@ public class Player : MonoBehaviour
         {
             transform.localScale = new Vector3(-0.05f, 0.05f, 0.05f);
 
+        }
+
+        if (movement.y > 0.01f)
+        {
+            transform.rotation = Quaternion.Euler(new Vector3(0, 0, 90));
+        }
+        else if (movement.y < -0.01)
+        {
+            transform.rotation = Quaternion.Euler(new Vector3(0, 0, -90));
+        }
+        else
+        {
+            transform.rotation = Quaternion.Euler(new Vector3(0, 0, 0));
         }
     }
 
